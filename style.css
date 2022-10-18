@@ -17,7 +17,7 @@ section {
 }
 .container {
   width: 90%;
-  max-width: 350px;
+  max-width: 400px;
   background-color: rgb(39, 55, 59);
   border-radius: 8px;
   overflow: hidden;
@@ -33,17 +33,17 @@ section {
 }
 .display-1 {
   opacity: 0.4;
-  font-size: 20px;
-  height: 20px;
+  font-size: 40px;
+  height: 50px;
   overflow: hidden;
 }
-.temp-result {
+/* .temp-result {
   position: absolute;
   bottom: 0;
   left: 10;
   font-size: 20px;
   opacity: 0.3;
-}
+} */
 .all_button {
   color: whitesmoke;
   background-color: rgba(35,36,40,255);
@@ -54,7 +54,8 @@ section {
   border: 0.5px solid rgba(92, 92, 92, 0.137);
   display: inline-block;
   height: 90px;
-  width: 100%;
+  width: 90px;
+  margin: 5px;
   display: flex;
   border-radius: 30px;
   align-items: center;
@@ -62,16 +63,16 @@ section {
   font-size: 25px;
   cursor: pointer;
 }
-#equal {
+.equal {
   background-color: #2bcc70;
   color: #fff;
   
 }
-#operation {
+.operation {
   background-color: #f99900;
   color: #ffffff;
 }  
-#clear {
+.clear {
   background-color: #2d191e;
   color: #bd3740;
 }
